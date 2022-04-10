@@ -1,8 +1,15 @@
+import Card from "./components/Card";
+import Storage from "./components/Storage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>TEst</h1>
+    <div className="container">
+      <div className="subcontainer">
+        <Card />
+        <Storage />
+      </div>
+      <img className="bg-mobile" src='/images/bg-mobile.png' alt="mobile" />
+      <img className="bg-desktop" src="/images/bg-desktop.png" alt="desktop" />
     </div>
   );
 }
