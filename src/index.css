@@ -157,7 +157,7 @@ body {
   display:none;
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:600px) {
   .subcontainer {
     display:flex;
     flex-direction: column;
